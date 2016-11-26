@@ -1,0 +1,105 @@
+html{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#pie{
+    background-color: #D5D5D5;
+    padding: 10px;
+    width: 96%;
+    position: fixed;
+    bottom: 0 !important;
+    bottom: -1px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Open Sans Light;
+}
+#textoPie{
+    color: rgb(63, 63, 63);
+}
+#imgfooter{
+    height: 95px;
+    width: 95px;
+}
+#encabezado{
+    background-color: #FDEE00;
+    width: 100%;
+    padding: 1%;
+}
+.img-circle{
+    height: 95px;
+    width: 95px;
+}
+#lblCargo{
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+    font-family: Open Sans Light;
+}
+#lblUsuario{
+    font-size: 20px;
+    text-align: right;
+    color: rgb(63, 63, 63);
+    font-family: Open Sans Light;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/opensans-light-webfont.woff2') format('woff2'),       
+        url('fonts/opensans-light-webfont.woff') format('woff'),  
+        url('fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h4{
+    text-align: justify;
+}
+h5{
+    text-align: justify;
+}
+img.pequeña{
+    width: 50px; height: 50px;
+}
+
+/* navbar */
+.navbar-collapse {
+    margin-top: 1%;
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+.navbar-collapse .navbar-brand {
+    color: #777;
+}
+.navbar-collapse .navbar-brand:hover,
+.navbar-collapse .navbar-brand:focus {
+    color: rgb(63, 63, 63);
+}
+/* link */
+.navbar-collapse .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-collapse .navbar-nav > li > a:hover,
+.navbar-collapse .navbar-nav > li > a:focus {
+    color: rgb(63, 63, 63);
+}
+.navbar-collapse .navbar-nav > .active > a, 
+.navbar-collapse .navbar-nav > .active > a:hover, 
+.navbar-collapse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-collapse .navbar-nav > .open > a, 
+.navbar-collapse .navbar-nav > .open > a:hover, 
+.navbar-collapse .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+#modal01{
+    body { margin-top:20px; }
+    .panel-body:not(.two-col) { padding:0px }
+    .glyphicon { margin-right:5px; }
+    .glyphicon-new-window { margin-left:5px; }
+    .panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+    .panel-body .list-group {margin-bottom: 0;}
+    .margin-bottom-none { margin-bottom: 0; }
+    .panel-body .radio label,.panel-body .checkbox label { display:block; }
+}
