@@ -40,6 +40,9 @@
                         </span>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-user"></span>  Registrar Usuario</a>
+                </div>
             </div>
         </div>
 
@@ -62,7 +65,7 @@
                         <th class="text-center">Área</th>
                         <th class="text-center">Cargo</th>
                         <th class="text-center">Nivel de Permiso</th>
-                        <th class="text-center">Acciones</th>
+                        <th class="text-center">Configuraciones</th>
 
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -73,7 +76,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -84,7 +90,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -95,7 +104,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -106,7 +118,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -117,7 +132,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                         <tr>
                             <td class="text-center">WK-001</td>
@@ -128,7 +146,10 @@
                             <td class="text-center">Ventas</td>
                             <td class="text-center">Asesor</td>
                             <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center"><a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench"></span> Configuración</a></td>
+                            <td class="text-center">
+                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
+                            </td>
                         </tr>
                     </table>
                 </div>
