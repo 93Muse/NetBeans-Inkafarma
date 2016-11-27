@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : usuarios
     Created on : 20/11/2016, 10:26:18 AM
     Author     : wpm
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-user"></span>  Registrar Usuario</a>
+                    <a href="registrarUsuarios.jsp" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-user"></span>  Registrar Usuario</a>
                 </div>
             </div>
         </div>

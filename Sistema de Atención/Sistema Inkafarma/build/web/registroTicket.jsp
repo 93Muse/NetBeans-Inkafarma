@@ -20,11 +20,7 @@
                     <h2>Registro de Ticket</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <br>
-                </div>
-            </div>
+            <br>
             <div class="row">
                 <div class="col-md-2">
                     <h4>Categoría:</h4>
