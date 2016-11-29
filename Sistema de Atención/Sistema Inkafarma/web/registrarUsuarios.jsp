@@ -36,15 +36,15 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h4>Código de Trabajador:</h4>
+                    <h4>Código de Trabajador</h4>
                 </div>
                 <div class="col-md-2">
-                    <input type="text" class="form-control" value="48229461" readonly>
+                    <input type="text" class="form-control" placeholder="Dni...">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h4>Nombres:</h4>
+                    <h4>Nombres</h4>
                 </div>
                 <div class="col-md-4">
                     <input type="text" class="form-control" placeholder="Ingrese nombres...">
@@ -52,10 +52,18 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h4>Apellidos</h4>
+                    <h4>Apellido Paterno</h4>
                 </div>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Ingrese apellidos...">
+                    <input type="text" class="form-control" placeholder="Ingrese apellido paterno...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Apellido Materno</h4>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Ingrese apellido materno...">
                 </div>
             </div>
 
@@ -86,16 +94,22 @@
                         </optgroup>
                     </select>
                 </div>
-            </div>   
+                <div class="col-md-2 col-md-offset-3">
+                    <a href="#" role="button" class="btn btn-primary btn-md btn-block"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Examinar...</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-3">
+                    <a href="buscarUsuarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Registrar</a>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <a href="buscarUsuarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Regresar a Lista</a>
+                </div>
+            </div>
         </div>
 
         <%@include file="WEB-INF/jspf/footer.jspf" %> 
     </body>
-
-    <script>
-        $("#archivos").fileinput({
-            showUpload: true,
-            showRemove: true
-        });
-    </script>
 </html>
