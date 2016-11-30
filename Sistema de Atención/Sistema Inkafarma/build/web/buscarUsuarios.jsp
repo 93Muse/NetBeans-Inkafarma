@@ -25,8 +25,8 @@
                             </button>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Código</a></li>
-                                <li><a href="#">Nombre</a></li>
                                 <li><a href="#">DNI</a></li>
+                                <li><a href="#">Nombre</a></li>
                                 <li><a href="#">Área</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#">Listar Todo</a></li>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <a href="registrarUsuarios.jsp" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-user"></span>  Registrar Usuario</a>
+                    <a href="registrarUsuarios.jsp" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-user"></span>  Nuevo Usuario</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 table-responsive">                  
                     <table class="table table-bordered table-striped">
-                        <th class="text-center">Código</th>
+                        <th class="text-center">ID de Trabajador</th>
                         <th class="text-center">DNI</th>
                         <th class="text-center">Nombres</th>
                         <th class="text-center">A. Paterno</th>
@@ -80,76 +80,6 @@
                                 <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
                             </td>
                         </tr>
-                        <tr>
-                            <td class="text-center">WK-001</td>
-                            <td class="text-center">48229461</td>
-                            <td class="text-center">Keiko</td>
-                            <td class="text-center">Fujimori</td>
-                            <td class="text-center">Higuchi</td>
-                            <td class="text-center">Ventas</td>
-                            <td class="text-center">Asesor</td>
-                            <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center">
-                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">WK-001</td>
-                            <td class="text-center">48229461</td>
-                            <td class="text-center">Keiko</td>
-                            <td class="text-center">Fujimori</td>
-                            <td class="text-center">Higuchi</td>
-                            <td class="text-center">Ventas</td>
-                            <td class="text-center">Asesor</td>
-                            <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center">
-                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">WK-001</td>
-                            <td class="text-center">48229461</td>
-                            <td class="text-center">Keiko</td>
-                            <td class="text-center">Fujimori</td>
-                            <td class="text-center">Higuchi</td>
-                            <td class="text-center">Ventas</td>
-                            <td class="text-center">Asesor</td>
-                            <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center">
-                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">WK-001</td>
-                            <td class="text-center">48229461</td>
-                            <td class="text-center">Keiko</td>
-                            <td class="text-center">Fujimori</td>
-                            <td class="text-center">Higuchi</td>
-                            <td class="text-center">Ventas</td>
-                            <td class="text-center">Asesor</td>
-                            <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center">
-                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-center">WK-001</td>
-                            <td class="text-center">48229461</td>
-                            <td class="text-center">Keiko</td>
-                            <td class="text-center">Fujimori</td>
-                            <td class="text-center">Higuchi</td>
-                            <td class="text-center">Ventas</td>
-                            <td class="text-center">Asesor</td>
-                            <th class="text-center"><span class="label label-default">Usuario Básico</span></th>
-                            <td class="text-center">
-                                <a href="#modal02" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
-                                <a href="#modal02" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
-                            </td>
-                        </tr>
                     </table>
                 </div>
             </div>
@@ -170,7 +100,7 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <div class="row">
-                            <h4 class="col-md-3">Código de Trabajador</h4>                               
+                            <h4 class="col-md-3">ID de Trabajador</h4>                               
                             <div class="col-md-3 text-left">
                                 <input class="form-control text-center" type="text" value="WK-001" readonly>
                             </div>
@@ -179,6 +109,7 @@
                                 <input class="form-control text-center" type="text" value="48229461">
                             </div>
                         </div>
+                        <br>
                         <br>
                         <div class="row">
                             <label class="col-md-3">Apellido Paterno</label>
@@ -196,7 +127,6 @@
                                 <input class="form-control" type="text" placeholder="Ingrese Nombres..." value="Mike">
                             </div>
                         </div>
-                        <br>
                         <br>
                         <div class="row">
                             <label class="col-md-3">Tipo de Trabajador</label>
@@ -234,11 +164,10 @@
                         <br>
                     </div>                     
                 </div>                   
-
                 <!-- Footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Regresar</button>
-                    <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-ok-sign"></span>  Cerrar Ticket</a>               
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-ok-sign"></span>  Guardar Cambios</a>               
                 </div>
             </div>
         </div>

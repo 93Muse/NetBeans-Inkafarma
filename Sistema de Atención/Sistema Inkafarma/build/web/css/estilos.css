@@ -20,6 +20,10 @@ html{
     height: 95px;
     width: 95px;
 }
+#imagenPerfil{
+    height: 230px;
+    width: 280px;
+}
 #encabezado{
     background-color: #FDEE00;
     width: 100%;
@@ -28,10 +32,6 @@ html{
 .img-circle{
     height: 95px;
     width: 95px;
-}
-.img-thumbnail{
-    height: 150px;
-    width: 150px;
 }
 #lblCargo{
     font-size: 16px;
