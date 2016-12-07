@@ -1,3 +1,11 @@
+html, body{
+    background-image: url('../img/login.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
 /* INICIO LOGIN FORM */
 .card-container.card {
     max-width: 350px;
@@ -17,7 +25,7 @@
  * Card component
  */
 .card {
-    background-color: #2FAB34;
+    background-color: rgb(203,254,67);
     /* just in case there no content*/
     padding: 20px 25px 30px;
     margin: 0 auto 25px;

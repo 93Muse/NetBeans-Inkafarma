@@ -13,7 +13,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(1);
-    _jspx_dependants.add("/WEB-INF/jspf/jscss.jspf");
+    _jspx_dependants.add("/WEB-INF/jspf/estilos.jspf");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -46,19 +46,19 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n");
-      out.write("        <title>Centro de Soporte Web</title>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\r\n");
+      out.write("        <title>Centro de Soporte Web</title>\r\n");
       out.write("        ");
       out.write("\r\n");
       out.write("\r\n");
-      out.write("<link href=\"css/estilos.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
+      out.write("<link href=\"css/login.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
       out.write("<script src=\"jquery/jquery.js\" type=\"text/javascript\"></script>\r\n");
       out.write("\r\n");
       out.write("<!-- Latest compiled and minified CSS -->\r\n");
@@ -75,34 +75,32 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!-- (Optional) Latest compiled and minified JavaScript translation files -->\r\n");
       out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/i18n/defaults-*.min.js\"></script>\r\n");
       out.write("\r\n");
-      out.write("\n");
-      out.write("    </head>\n");
-      out.write("    <body>\n");
-      out.write("\n");
-      out.write("        <div class=\"container\">\n");
-      out.write("            <div class=\"card card-container\">\n");
-      out.write("                <img class=\"profile-img-card\" src=\"//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120\" alt=\"\" />\n");
-      out.write("                <img id=\"profile-img\" class=\"profile-img-card\" src=\"//ssl.gstatic.com/accounts/ui/avatar_2x.png\" />\n");
-      out.write("                <p id=\"profile-name\" class=\"profile-name-card\"></p>\n");
-      out.write("                <form class=\"form-signin\">\n");
-      out.write("                    <span id=\"reauth-email\" class=\"reauth-email\"></span>\n");
-      out.write("                    <input type=\"email\" id=\"inputEmail\" class=\"form-control\" placeholder=\"Email address\" required autofocus>\n");
-      out.write("                    <input type=\"password\" id=\"inputPassword\" class=\"form-control\" placeholder=\"Password\" required>\n");
-      out.write("                    <div id=\"remember\" class=\"checkbox\">\n");
-      out.write("                        <label>\n");
-      out.write("                            <input type=\"checkbox\" value=\"remember-me\"> Remember me\n");
-      out.write("                        </label>\n");
-      out.write("                    </div>\n");
-      out.write("                    <button class=\"btn btn-lg btn-primary btn-block btn-signin\" type=\"submit\">Sign in</button>\n");
-      out.write("                </form><!-- /form -->\n");
-      out.write("                <a href=\"#\" class=\"forgot-password\">\n");
-      out.write("                    Forgot the password?\n");
-      out.write("                </a>\n");
-      out.write("            </div><!-- /card-container -->\n");
-      out.write("        </div><!-- /container -->\n");
-      out.write("\n");
-      out.write("    </body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("    </head>\r\n");
+      out.write("    <body>\r\n");
+      out.write("        <div class=\"container\">\r\n");
+      out.write("            <div class=\"card card-container\">\r\n");
+      out.write("                <img class=\"profile-img-card\" src=\"//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120\" alt=\"\" />                \r\n");
+      out.write("                <p id=\"profile-name\" class=\"profile-name-card\"></p>\r\n");
+      out.write("                <form class=\"form-signin\">\r\n");
+      out.write("                    <span id=\"reauth-email\" class=\"reauth-email\"></span>\r\n");
+      out.write("                    <input type=\"email\" id=\"inputEmail\" class=\"form-control\" placeholder=\"Dirección de correo\" required autofocus>\r\n");
+      out.write("                    <input type=\"password\" id=\"inputPassword\" class=\"form-control\" placeholder=\"Contraseña\" required>\r\n");
+      out.write("                    <div id=\"remember\" class=\"checkbox\">\r\n");
+      out.write("                        <label>\r\n");
+      out.write("                            <input type=\"checkbox\" value=\"remember-me\"> Recordar\r\n");
+      out.write("                        </label>\r\n");
+      out.write("                    </div>              \r\n");
+      out.write("                    <button class=\"btn btn-lg btn-primary btn-block btn-signin\" type=\"submit\">Ingresar</button>\r\n");
+      out.write("                </form><!-- /form -->\r\n");
+      out.write("                <a href=\"#\" class=\"forgot-password\">\r\n");
+      out.write("                    ¿Olvidó su contraseña?\r\n");
+      out.write("                </a>\r\n");
+      out.write("            </div><!-- /card-container -->\r\n");
+      out.write("        </div><!-- /container -->\r\n");
+      out.write("\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
