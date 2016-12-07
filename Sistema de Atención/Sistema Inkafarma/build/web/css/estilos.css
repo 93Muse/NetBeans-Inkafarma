@@ -1,21 +1,49 @@
-html{
-    margin-right: 2%;
-    margin-left: 2%;
+html, body, #wrap{
+    height: 100%;
 }
-#pie{
-    background-color: #D5D5D5;
-    padding: 10px;
-    width: 96%;
-    position: fixed;
-    bottom: 0 !important;
-    bottom: -1px;
+
+body{
+    background-image: url('../img/FondoUPN.jpg');
+}
+
+body > #wrap{
+    height: auto; min-height: 100%;
+}
+
+#main{
+    padding-bottom: 150px; /* debe ser el mismo alto que el footer */
+}
+
+.footer{
+    margin-top: -150px; /* valor negativo del alto del footer */
+    height: 150px;
+    clear: both;
+    
     font-size: 13px;
-    color: #ffffff;
+    color: rgb(63, 63, 63);
     font-family: Open Sans Light;
 }
-#textoPie{
-    color: rgb(63, 63, 63);
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
+
+.clearfix{
+    display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix{
+    height: 1%;
+}
+.clearfix{
+    display: block;
+}
+/* End hide from IE-mac */
+
 #imgfooter{
     height: 95px;
     width: 95px;
@@ -64,7 +92,8 @@ img.pequeña{
     width: 50px; height: 50px;
 }
 
-/* navbar */
+
+/* INICIO NAV BAR */
 .navbar-collapse {
     margin-top: 1%;
     background-color: #F8F8F8;
@@ -107,3 +136,4 @@ img.pequeña{
     .margin-bottom-none { margin-bottom: 0; }
     .panel-body .radio label,.panel-body .checkbox label { display:block; }
 }
+/* FIN NAV BAR */
