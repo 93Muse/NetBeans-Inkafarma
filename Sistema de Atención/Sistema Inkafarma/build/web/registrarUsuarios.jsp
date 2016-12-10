@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Centro de Soporte Web</title>
+        <title>Inkafarma - Help Desk Online</title>
         <%@include file="WEB-INF/jspf/jscss.jspf" %>      
     </head>
     <body>

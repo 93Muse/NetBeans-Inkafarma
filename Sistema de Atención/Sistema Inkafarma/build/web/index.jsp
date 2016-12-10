@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Centro de Soporte Web</title>
+        <title>Inkafarma - Help Desk Online</title>
         <%@include file="WEB-INF/jspf/jscss.jspf" %>
     </head>
     <body>
