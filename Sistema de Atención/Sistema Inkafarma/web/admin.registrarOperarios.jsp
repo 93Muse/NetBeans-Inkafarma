@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/header.jspf" %>
+            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
             <div id="main" class="clearfix"> 
                 <div class="container">
                     <div class="main row">
@@ -73,10 +73,10 @@
                     <br>
                     <div class="row">
                         <div class="col-md-3 col-md-offset-3">
-                            <a href="buscarOperarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Registrar</a>
+                            <a href="adminOperarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Registrar</a>
                         </div>
                         <div class="col-md-3 col-md-offset-1">
-                            <a href="buscarOperarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Regresar a Lista</a>
+                            <a href="adminOperarios.jsp" role="button" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Regresar a Lista</a>
                         </div>
                     </div>
                 </div>

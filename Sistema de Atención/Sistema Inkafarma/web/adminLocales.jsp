@@ -1,6 +1,6 @@
 <%-- 
-    Document   : buscarOperarios
-    Created on : 29-nov-2016, 19:45:48
+    Document   : buscarLocales
+    Created on : 28-nov-2016, 20:34:19
     Author     : Administrador
 --%>
 
@@ -14,9 +14,9 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/header.jspf" %>
+            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
             <br>
-            <div id="main" class="clearfix"> 
+            <div id="main" class="clearfix">              
                 <div class="container">
                     <div class="row">    
                         <div class="col-md-5">
@@ -27,9 +27,10 @@
                                     </button>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Código</a></li>
-                                        <li><a href="#">Nombre</a></li>
-                                        <li><a href="#">DNI</a></li>
-                                        <li><a href="#">Nivel</a></li>
+                                        <li><a href="#">Departamento</a></li>
+                                        <li><a href="#">Provincia</a></li>
+                                        <li><a href="#">Distrito</a></li>
+                                        <li><a href="#">Tipo</a></li>
                                         <li class="divider"></li>
                                         <li><a href="#">Listar Todo</a></li>
                                     </ul>
@@ -42,7 +43,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <a href="registrarOperarios.jsp" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plus"></span>  Nuevo Operario</a>
+                            <a href="admin.registrarLocales.jsp" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-plus"></span>  Nuevo Local</a>
                         </div>
                     </div>
                 </div>
@@ -51,28 +52,30 @@
                     <div class="main row">               
                         <div class="col-md-12">
                             <h3>
-                                Operarios
+                                Locales
                             </h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 table-responsive">                  
                             <table class="table table-bordered table-striped">
-                                <th class="text-center">ID de Operario</th>
-                                <th class="text-center">DNI</th>
-                                <th class="text-center">Nombres</th>
-                                <th class="text-center">A. Paterno</th>
-                                <th class="text-center">A. Materno</th>
-                                <th class="text-center">Nivel</th>
+                                <th class="text-center">ID de Local</th>
+                                <th class="text-center">Código</th>
+                                <th class="text-center">Dirección</th>
+                                <th class="text-center">Departamento</th>
+                                <th class="text-center">Provincia</th>
+                                <th class="text-center">Distrito</th>
+                                <th class="text-center">Tipo</th>
                                 <th class="text-center">Configuraciones</th>
 
                                 <tr>
-                                    <td class="text-center">OPR-001</td>
-                                    <td class="text-center">48229461</td>
-                                    <td class="text-center">Wilfredo</td>
-                                    <td class="text-center">Pedroso</td>
-                                    <td class="text-center">Melgarejo</td>
-                                    <th class="text-center"><span class="label label-success">Nivel 1</span></th>
+                                    <td class="text-center">LCL-001</td>
+                                    <td class="text-center">LLSTA-01</td>
+                                    <td class="text-center">Cl. Ciro Alegría #411</td>
+                                    <td class="text-center">Lima</td>
+                                    <td class="text-center">Lima</td>
+                                    <td class="text-center">Santa Anita</td>
+                                    <th class="text-center"><span class="label label-success">Bronce</span></th>
                                     <td class="text-center">
                                         <a href="#modal01" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
                                         <a href="#" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
@@ -93,55 +96,82 @@
                 <!-- Header -->
                 <div class="modal-header">
                     <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title">Editar Operario - Mesa de Ayuda</h2>
+                    <h2 class="modal-title">Editar Registro Local</h2>
                 </div>
 
                 <!-- Contenido -->
                 <div class="modal-body">
                     <div class="form-group">
                         <div class="row">
-                            <h4 class="col-md-3">ID de Trabajador</h4>                               
-                            <div class="col-md-3 text-left">
-                                <input class="form-control text-center" type="text" value="OPR-001" readonly>
+                            <h4 class="col-md-2">ID de Local</h4>                               
+                            <div class="col-md-3">
+                                <input class="form-control text-center" type="text" value="LCL-001" readonly>
                             </div>
-                            <h4 class="col-md-3">Nro. DNI</h4>                               
-                            <div class="col-md-3 text-left">
-                                <input class="form-control text-center" type="text" value="48229461">
+                            <h4 class="col-md-2 col-md-offset-2">Código</h4>                               
+                            <div class="col-md-3">
+                                <input class="form-control text-center" type="text" value="LLSTA-01" readonly>
                             </div>
                         </div>
                         <br>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <h4>Dirección</h4>
+                            </div>
+                            <div class="col-md-5">
+                                <input class="form-control" type="text" placeholder="Ingrese dirección..." value="Cl. Ciro Alegría #411">
+                            </div>
+                        </div>
                         <br>
                         <div class="row">
-                            <label class="col-md-3">Nivel</label>
+                            <div class="col-md-2">
+                                <h4>Tipo</h4>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="selectpicker">
+                                    <optgroup label="Categorías">
+                                        <option>Bronce</option>
+                                        <option>Plata</option>
+                                        <option>Oro</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <label class="col-md-3">Departamento</label>
+                            <label class="col-md-3 col-md-offset-1">Provincia</label>
+                            <label class="col-md-3 col-md-offset-1">Distrito</label>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
                                 <select class="selectpicker">
-                                    <optgroup label="Niveles">
-                                        <option>Nivel 1</option>
-                                        <option>Nivel 2</option>
-                                        <option>Administrador</option>
+                                    <optgroup label="Departamentos">
+                                        <option>Lima</option>
+                                        <option>La Libertad</option>
+                                        <option>Loreto</option>
+                                    </optgroup>
+                                </select> 
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker">
+                                    <optgroup label="Provincias">
+                                        <option>Lima</option>
+                                        <option>Huaraz</option>
+                                        <option>Tarma</option>
+                                    </optgroup>
+                                </select> 
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker">
+                                    <optgroup label="Distritos">
+                                        <option>Cercado de Lima</option>
+                                        <option>La Punta</option>
+                                        <option>Independencia</option>
                                     </optgroup>
                                 </select> 
                             </div>
                         </div>
                         <br>
-                        <div class="row">
-                            <label class="col-md-3">Apellido Paterno</label>
-                            <label class="col-md-3">Apellido Materno</label>
-                            <label class="col-md-6">Nombres</label>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input class="form-control" type="text" placeholder="Ingrese apellido paterno..." value="Portnoy">
-                            </div>
-                            <div class="col-md-3">
-                                <input class="form-control" type="text" placeholder="Ingrese apellido materno..." value="Portnoy">
-                            </div>
-                            <div class="col-md-6">
-                                <input class="form-control" type="text" placeholder="Ingrese nombres..." value="Mike">
-                            </div>
-                        </div>
                         <br>
                     </div>                     
                 </div>                   

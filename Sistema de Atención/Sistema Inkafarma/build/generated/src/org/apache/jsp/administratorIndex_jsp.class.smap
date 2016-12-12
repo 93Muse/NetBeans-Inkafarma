@@ -1,0 +1,22 @@
+SMAP
+administratorIndex_jsp.java
+JSP
+*S JSP
+*F
++ 0 administratorIndex.jsp
+administratorIndex.jsp
++ 1 jscss.jspf
+WEB-INF/jspf/jscss.jspf
++ 2 headerAdministrator.jspf
+WEB-INF/jspf/headerAdministrator.jspf
++ 3 footer.jspf
+WEB-INF/jspf/footer.jspf
+*L
+5,10:51
+1#1,22:61
+14#0,5:82
+1#2,42:87
+18#0,64:129
+1#3,29:193
+81#0,4:221
+*E

@@ -15,13 +15,13 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/header.jspf" %>
+            <%@include file="WEB-INF/jspf/headerOperador.jspf" %>
             <div id="main" class="clearfix">  
                 <div class="container">
                     <div class="main row">               
                         <div class="col-md-12">
                             <h3>
-                                Tickets
+                                Mis Tickets
                             </h3>
                         </div>
                     </div>
@@ -45,38 +45,8 @@
                                     <td class="text-center">18-11-2016</td>
                                     <td class="text-center">18-11-2016</td>
                                     <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0112</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0113</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0114</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>                            
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Detalles</a></td>
-                                </tr>
+                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Ver Detalles</a></td>
+                                </tr>                                
                             </table>
                         </div>
                     </div>
@@ -177,75 +147,8 @@
             <!-- Footer -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Regresar</button>
-                <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-ok-sign"></span>  Cerrar Ticket</a>               
+                <a href="#modal01" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-ok-sign"></span>  Guardar Cambios</a>               
             </div>
         </div>
     </div>
 </div>
-
-<!-- Encuesta -->
-<div class="modal fade" id="modal01">
-    <div class="modal-dialog">
-        <!-- Header -->
-
-        <div class="row">
-            <div class="col-md-9">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">
-                            <span class="glyphicon glyphicon-arrow-right"></span> Evalúe nuestra atención
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios">
-                                        Buena
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios">
-                                        Excelente
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios">
-                                        Mala
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios">
-                                        Podría mejorar
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="list-group-item">
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios">
-                                        Sin comentarios
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-thumbs-up"></span>  Enviar</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Footer -->
-        </div>
-    </div>

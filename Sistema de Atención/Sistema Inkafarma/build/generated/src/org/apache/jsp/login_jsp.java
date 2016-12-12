@@ -54,7 +54,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <head>\r\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\r\n");
-      out.write("        <title>Centro de Soporte Web</title>\r\n");
+      out.write("        <title>Inkafarma - Help Desk Online</title>\r\n");
       out.write("        ");
       out.write("\r\n");
       out.write("\r\n");
@@ -80,7 +80,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <body>\r\n");
       out.write("        <div class=\"container\">\r\n");
       out.write("            <div class=\"card card-container\">\r\n");
-      out.write("                <img class=\"profile-img-card\" src=\"//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120\" alt=\"\" />                \r\n");
+      out.write("                <img class=\"profile-img-card\" src=\"img/logoinka.jpg\" alt=\"\" />                \r\n");
       out.write("                <p id=\"profile-name\" class=\"profile-name-card\"></p>\r\n");
       out.write("                <form class=\"form-signin\">\r\n");
       out.write("                    <span id=\"reauth-email\" class=\"reauth-email\"></span>\r\n");

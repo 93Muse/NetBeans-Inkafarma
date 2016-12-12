@@ -1,0 +1,22 @@
+SMAP
+operadorIndex_jsp.java
+JSP
+*S JSP
+*F
++ 0 operadorIndex.jsp
+operadorIndex.jsp
++ 1 jscss.jspf
+WEB-INF/jspf/jscss.jspf
++ 2 headerOperador.jspf
+WEB-INF/jspf/headerOperador.jspf
++ 3 footer.jspf
+WEB-INF/jspf/footer.jspf
+*L
+5,10:51
+1#1,22:61
+14#0,5:82
+1#2,41:87
+18#0,64:128
+1#3,29:192
+81#0,4:220
+*E
