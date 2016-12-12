@@ -25,6 +25,25 @@
                     <br>
                     <div class="row">
                         <div class="col-md-2">
+                            <h4>Usuario:</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="selectpicker" data-live-search="true">
+                                <option data-tokens="">Wilfredo Pedroso Melgarejo</option>
+                                <option data-tokens="">José Durand Aguilar</option>
+                                <option data-tokens="">Renzo Gomez</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <h4>Área - Sucursal:</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control" value="Lima Centro">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-2">
                             <h4>Tipo:</h4>
                         </div>
                         <div class="col-md-3">
@@ -45,7 +64,6 @@
                             </select>
                         </div>
                     </div>
-                    <br>
                     <div class="row">
                         <div class="col-md-2">
                             <h4>Categoría:</h4>
@@ -63,9 +81,9 @@
                         <div class="col-md-3">
                             <select class="selectpicker">
                                 <optgroup label="Niveles">
-                                    <option style="background: #2360BC; color: #fff;">Bajo</option>
-                                    <option style="background: #E36512; color: #fff;">Medio</option>
-                                    <option style="background: #F30A0A; color: #fff;">Alto</option>
+                                    <option style="color: #2360BC;">Bajo</option>
+                                    <option style="color: #E36512;">Medio</option>
+                                    <option style="color: #F30A0A;">Alto</option>
                             </select>
                         </div>
                     </div>

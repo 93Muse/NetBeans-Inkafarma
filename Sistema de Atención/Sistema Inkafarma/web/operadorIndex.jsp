@@ -40,7 +40,7 @@
                         </div>                    
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 col-md-1 col-md-offset-1">
+                        <div class="col-md-1 col-md-offset-1">
                             <img id="imagenticket1" src="img/new.png">
                         </div>
                         <div class="col-xs-12 col-md-3 col-md-offset-1">

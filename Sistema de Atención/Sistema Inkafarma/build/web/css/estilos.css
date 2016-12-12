@@ -17,8 +17,7 @@ body > #wrap{
 .footer{
     margin-top: -150px; /* valor negativo del alto del footer */
     height: 150px;
-    clear: both;
-    
+    clear: both;   
     font-size: 13px;
     color: rgb(63, 63, 63);
     font-family: Open Sans Light;
