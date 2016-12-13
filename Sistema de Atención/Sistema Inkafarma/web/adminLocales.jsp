@@ -1,5 +1,5 @@
 <%-- 
-    Document   : buscarLocales
+    Document   : adminLocales
     Created on : 28-nov-2016, 20:34:19
     Author     : Administrador
 --%>

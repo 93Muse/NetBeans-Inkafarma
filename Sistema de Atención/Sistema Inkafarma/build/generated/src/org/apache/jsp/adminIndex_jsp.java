@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class administratorIndex_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class adminIndex_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -103,7 +103,7 @@ public final class administratorIndex_jsp extends org.apache.jasper.runtime.Http
       out.write("                <section class=\"main row\">\r\n");
       out.write("                    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\r\n");
       out.write("                        <ul class=\"nav navbar-nav\">\r\n");
-      out.write("                            <li class=\"active\"><a href=\"administratorIndex.jsp\"><span class=\"glyphicon glyphicon-home\" aria-hidden=\"true\"></span> Inicio de Centro de Soporte<span class=\"sr-only\">(current)</span></a></li>\r\n");
+      out.write("                            <li class=\"active\"><a href=\"adminIndex.jsp\"><span class=\"glyphicon glyphicon-home\" aria-hidden=\"true\"></span> Inicio de Centro de Soporte<span class=\"sr-only\">(current)</span></a></li>\r\n");
       out.write("                            <li class=\"divider-vertical\"></li>\r\n");
       out.write("                            <li><a href=\"adminLocales.jsp\"><span class=\"glyphicon glyphicon-shopping-cart\" aria-hidden=\"true\"></span> Locales</a></li>\r\n");
       out.write("                            <li class=\"divider-vertical\"></li>\r\n");

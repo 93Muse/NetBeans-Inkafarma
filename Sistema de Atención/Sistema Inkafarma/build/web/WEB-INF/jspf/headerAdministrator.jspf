@@ -17,7 +17,7 @@
                 <section class="main row">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="administratorIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
+                            <li class="active"><a href="adminIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
                             <li class="divider-vertical"></li>
                             <li><a href="adminLocales.jsp"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Locales</a></li>
                             <li class="divider-vertical"></li>
@@ -25,7 +25,7 @@
                             <li class="divider-vertical"></li>
                             <li><a href="adminOperarios.jsp"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Operarios</a></li>
                             <li class="divider-vertical"></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Catálogos</a></li>
+                            <li><a href="adminCatalogos.jsp"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Catálogos</a></li>
                             <li class="divider-vertical"></li>
                             <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Configuraciones</a></li>                                              
                         </ul>

@@ -33,7 +33,7 @@
                                 <th class="text-center">Servicio Afectado</th>
                                 <th class="text-center">Equipo</th>
                                 <th class="text-center">Fecha Registro</th>
-                                <th class="text-center">Fecha Solución</th>
+                                <th class="text-center">Tiempo de Atención</th>
                                 <th class="text-center">Estado</th>
                                 <th class="text-center">Detalles</th>
 
@@ -43,9 +43,9 @@
                                     <td class="text-center">Ventas</td>
                                     <td class="text-center">Estación de Servidor</td>
                                     <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Ver Detalles</a></td>
+                                    <td class="text-center">Restan: 5h</td>
+                                    <td class="text-center"><span class="label label-default">En proceso</span></td>    
+                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Solucionar</a></td>
                                 </tr>                                
                             </table>
                         </div>
@@ -69,20 +69,27 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <div class="row">
-                            <h4 class="col-md-3">Fecha de Registro:</h4>                               
-                            <div class="col-md-3 text-left">
-                                <input class="form-control" type="text" placeholder="18-11-2016 12:47:05 pm." value="18-11-2016 12:47:05 pm." readonly>
+                            <h4 class="col-md-3">Código de Ticket:</h4>
+                            <div class="col-md-2">
+                                <input class="form-control" type="text" placeholder="RLC-0111" value="RLC-0111" readonly>
                             </div>
-                            <h4 class="col-md-3">Fecha de Solución</h4>                               
-                            <div class="col-md-3 text-left">
-                                <input class="form-control" type="text" placeholder="18-11-2016 12:47:05 pm." value="18-11-2016 12:47:05 pm." readonly>
+                            <h4 class="col-md-1 col-md-offset-2">Estado:</h4>
+                            <div class="col-md-3">
+                                <select class="selectpicker" data-live-search="true">
+                                    <optgroup label="Estados">
+                                        <option>Registrado</option>
+                                        <option>Proceso</option>
+                                        <option>Solucionado</option>
+                                        <option>Cerrado</option>
+                                    </optgroup>
+                                </select>
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <label class="col-md-3">Tipo:</label>
-                            <label class="col-md-3">Gravedad:</label>
-                            <label class="col-md-6">Técnico:</label>
+                            <label class="col-md-3 col-md-offset-1">Vía:</label>
+                            <label class="col-md-3 col-md-offset-1">Gravedad:</label>                          
                         </div>
                         <div class="row">
                             <div class="col-md-3">
@@ -92,47 +99,95 @@
                                         <option>Requerimiento</option>
                                 </select>
                             </div>
-                        <div class="col-md-3">
-                            <select class="selectpicker">
-                                <optgroup label="Niveles">
-                                    <option style="color: #2360BC;">Bajo</option>
-                                    <option style="color: #E36512;">Medio</option>
-                                    <option style="color: #F30A0A;">Alto</option>
-                            </select>
-                        </div>
-                            <div class="col-md-6">
-                                <input class="form-control" type="text" placeholder="Apellido Apellido, Nombre" value="Apellido Apellido, Nombre" readonly>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker">
+                                    <optgroup label="Vías">
+                                        <option>Anexo 7777</option>
+                                        <option>Correo Electrónico</option>
+                                </select>
                             </div>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <label class="col-md-3">Código de Ticket</label>
-                            <label class="col-md-3">Nombre</label>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <input class="form-control" type="text" placeholder="RLC-0111" value="RLC-0111" readonly>
-                            </div>
-                            <div class="col-md-9">
-                                <input class="form-control" type="text" placeholder="Nombre" value="Nombre" readonly>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker">
+                                    <optgroup label="Niveles">
+                                        <option style="color: #040404;">Bajo</option>
+                                        <option style="color: #2360BC;">Medio</option>
+                                        <option style="color: #E36512;">Alto</option>
+                                        <option style="color: #F30A0A;">Crítico</option>
+                                </select>
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <label class="col-md-3">Categoría</label>
-                            <label class="col-md-3">Servicio Afectado</label>
-                            <label class="col-md-3">Equipo</label>
+                            <label class="col-md-3 col-md-offset-1">Servicio Afectado</label>
+                            <label class="col-md-3 col-md-offset-1">Equipo Afectado</label>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <input class="form-control" type="text" placeholder="Estación de Servidor" value="Estación de Servidor" readonly>
+                                <select class="selectpicker">
+                                    <optgroup label="Categorías">
+                                        <option>Software</option>
+                                        <option>Hardware</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker" data-live-search="true">
+                                    <optgroup label="Servicios">
+                                        <option>Ventas</option>
+                                        <option>Facturación</option>
+                                        <option>Almacén</option>
+                                        <option>Planillas</option>
+                                        <option>Atención al Cliente</option>
+                                        <option>Compras</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1">
+                                <select class="selectpicker" data-live-search="true">
+                                    <optgroup label="Equipos">
+                                        <option>PC</option>
+                                        <option>POS</option>
+                                        <option>Cajero Automático</option>
+                                        <option>Router</option>
+                                        <option>Servidores</option>
+                                    </optgroup>
+                                </select>
+                            </div>  
+                        </div>
+                        <br>
+                        <div class="row">
+                            <label class="col-md-3">Título</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" placeholder="Título..." value="Estación de Servidor Malogrado">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <h4 class="col-md-2">Técnico:</h4>
+                            <div class="col-md-4">
+                                <input class="form-control" type="text" placeholder="Técnico..." value="Wilfredo Pedroso Melgarejo" readonly>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Derivar Ticket
+                                    </label>
+                                </div>
                             </div>
                             <div class="col-md-3">
-                                <input class="form-control" type="text" placeholder="Hardware" value="Hardware" readonly>
-                            </div>
-                            <div class="col-md-6">
-                                <input class="form-control" type="text" placeholder="Ventas" value="Ventas" readonly>
+                                <select class="selectpicker" data-live-search="true">
+                                    <optgroup label="Técnicos">
+                                        <option>Luis Paredes Silvestre</option>
+                                        <option>Josué Roque Orihuela</option>
+                                        <option>Yerci Castro Bustamante</option>
+                                        <option>Nahum Rondán Urbano</option>
+                                    </optgroup>
+                                </select>
                             </div>
                         </div>
                         <br>
@@ -142,10 +197,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <textarea class="form-control" rows="3" readonly></textarea>
+                                <textarea class="form-control" rows="3"></textarea>
                             </div>
                             <div class="col-md-6">
-                                <textarea class="form-control" rows="3" readonly></textarea>
+                                <textarea class="form-control" rows="3"></textarea>
                             </div>
                         </div>
                     </div>                     

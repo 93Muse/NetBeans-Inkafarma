@@ -54,18 +54,6 @@
                             </select>
                         </div>
                         <div class="col-md-2">
-                            <h4>Vía:</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <select class="selectpicker">
-                                <optgroup label="Vías">
-                                    <option>Anexo 7777</option>
-                                    <option>Correo Electrónico</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
                             <h4>Categoría:</h4>
                         </div>
                         <div class="col-md-3">
@@ -75,19 +63,18 @@
                                     <option>Hardware</option>
                             </select>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-2">
-                            <h4>Gravedad:</h4>
+                            <h4>Vía:</h4>
                         </div>
                         <div class="col-md-3">
                             <select class="selectpicker">
-                                <optgroup label="Niveles">
-                                    <option style="color: #2360BC;">Bajo</option>
-                                    <option style="color: #E36512;">Medio</option>
-                                    <option style="color: #F30A0A;">Alto</option>
+                                <optgroup label="Vías">
+                                    <option>Anexo 7777</option>
+                                    <option>Correo Electrónico</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-2">
                             <h4>Servicio Afectado:</h4>
                         </div>
@@ -106,6 +93,18 @@
                     </div>
                     <div class="row">
                         <div class="col-md-2">
+                            <h4>Gravedad:</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="selectpicker">
+                                <optgroup label="Niveles">
+                                    <option style="color: #040404;">Bajo</option>
+                                    <option style="color: #2360BC;">Medio</option>
+                                    <option style="color: #E36512;">Alto</option>
+                                    <option style="color: #F30A0A;">Crítico</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
                             <h4>Equipo Afectado:</h4>
                         </div>
                         <div class="col-md-3">
@@ -116,6 +115,24 @@
                                     <option>Cajero Automático</option>
                                     <option>Router</option>
                                     <option>Servidores</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h4>Tiempo de Atención</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="selectpicker">
+                                <optgroup label="Horas">
+                                    <option>1 Hora</option>
+                                    <option>2 Horas</option>
+                                    <option>3 Horas</option>
+                                    <option>4 Horas</option>
+                                    <option>5 Horas</option>
+                                    <option>6+ Horas</option>
                                 </optgroup>
                             </select>
                         </div>

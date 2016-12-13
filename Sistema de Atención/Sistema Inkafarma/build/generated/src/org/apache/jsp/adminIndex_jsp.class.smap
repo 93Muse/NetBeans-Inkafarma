@@ -1,10 +1,10 @@
 SMAP
-administratorIndex_jsp.java
+adminIndex_jsp.java
 JSP
 *S JSP
 *F
-+ 0 administratorIndex.jsp
-administratorIndex.jsp
++ 0 adminIndex.jsp
+adminIndex.jsp
 + 1 jscss.jspf
 WEB-INF/jspf/jscss.jspf
 + 2 headerAdministrator.jspf
