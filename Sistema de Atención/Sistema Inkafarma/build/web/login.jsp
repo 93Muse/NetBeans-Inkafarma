@@ -14,6 +14,10 @@
         <%@include file="WEB-INF/jspf/estilos.jspf" %>
     </head>
     <body>
+        <br>
+        <div class="container">
+            <img src="img/Header.png">
+        </div>
         <div class="container">
             <div class="card card-container">
                 <img class="profile-img-card" src="img/logoinka.jpg" alt="" />                
