@@ -73,7 +73,7 @@ body > #wrap{
 #lblCargo{
     font-size: 16px;
     color: rgb(63, 63, 63);
-    font-family: Open Sans Light;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #lblUsuario{
@@ -179,4 +179,9 @@ img.pequeña{
 
 .derecho {
     float: right;
+}
+
+ul li:hover,
+ul li:focus {
+    font-size: 15px;
 }

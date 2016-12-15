@@ -64,6 +64,9 @@ public final class usuarioIndex_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("<!-- Fuente Open Sans -->\r\n");
       out.write("<link href=\"https://fonts.googleapis.com/css?family=Open+Sans\" rel=\"stylesheet\">\r\n");
       out.write("\r\n");
+      out.write("<!-- Roboto -->\r\n");
+      out.write("<link href=\"https://fonts.googleapis.com/css?family=Roboto:500\" rel=\"stylesheet\">\r\n");
+      out.write("\r\n");
       out.write("<!-- FontAwesome-->\r\n");
       out.write("<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n");
       out.write("\r\n");
@@ -84,9 +87,6 @@ public final class usuarioIndex_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js\"></script>\r\n");
       out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/i18n/defaults-*.min.js\"></script>\r\n");
       out.write("\r\n");
-      out.write("<!-- Materialize -->\r\n");
-      out.write("<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css\">\r\n");
-      out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js\"></script>\r\n");
       out.write("\r\n");
       out.write("    </head>\r\n");
       out.write("    <body>\r\n");
@@ -95,7 +95,7 @@ public final class usuarioIndex_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\r\n");
       out.write("\r\n");
       out.write("<header>    \r\n");
-      out.write("    <div class=\"container-fluid\" id=\"encabezado\">\r\n");
+      out.write("    <div class=\"container-fluid\" id=\"header\">\r\n");
       out.write("        <section class=\"main row\">\r\n");
       out.write("            <div class=\"col-md-4\"> \r\n");
       out.write("                <img src=\"img/inkafarmaheader.png\">\r\n");

@@ -80,7 +80,7 @@
                                     <img class="card-img-top img-responsive" src="http://audiostreaminghd.com/configuraciones.png" alt="Card image cap">
                                     <div class="card-block">
                                         <h4 class="card-title">Configuraciones</h4>
-                                        <p class="card-text" id="texto">Aquí se encuentran todas las herramientas necesarias para configurar los puntos de venta. Podrá registrar, editar y eliminar registros de forma rápida y sencilla.</p>
+                                        <p class="card-text" id="texto">Encontrará las opciones para delegar y denegar permisos a los usuarios u operadores del sistema de Mesa de Ayuda.</p>
                                         <a href="#" class="btn btn-primary izquierdo"><i class="fa fa-wrench" aria-hidden="true"></i> Ir a Configuraciones</a>
                                     </div>
                                 </div>

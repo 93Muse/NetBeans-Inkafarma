@@ -13,35 +13,43 @@
                 <img src="http://data.whicdn.com/images/65154870/original.jpg" alt="..." class="img-circle">
             </div>
         </section>
-            <div class="container-fluid">
-                <section class="main row">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="adminIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="adminLocales.jsp"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Locales</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="adminUsuarios.jsp"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuarios</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="adminOperarios.jsp"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Operarios</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="adminCatalogos.jsp"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Catálogos</a></li>
-                            <li class="divider-vertical"></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Configuraciones</a></li>                                              
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mi Cuenta <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Mi Perfil</a></li>
-                                    <li><a href="#">Cambiar Contraseña</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Cerrar Sesión</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </section>
-            </div><!-- /.container-fluid -->
+        <div class="container-fluid">
+            <section class="main row">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="adminIndex.jsp"><i class="fa fa-home" aria-hidden="true"></i> Inicio de Centro de Soporte</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li>
+                            <a href="adminLocales.jsp"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Locales</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li>
+                            <a href="adminUsuarios.jsp"><i class="fa fa-users" aria-hidden="true"></i> Usuarios</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li>
+                            <a href="adminOperarios.jsp"><i class="fa fa-phone-square" aria-hidden="true"></i> Operarios</a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="adminCatalogos.jsp"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Catálogos</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Configuraciones</a></li>                                              
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mi Cuenta <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mi Perfil</a></li>
+                                <li><a href="#">Cambiar Contraseña</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Cerrar Sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </section>
+        </div><!-- /.container-fluid -->
     </div>    
 </header>
