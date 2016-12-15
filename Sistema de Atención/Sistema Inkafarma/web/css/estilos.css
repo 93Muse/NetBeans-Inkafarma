@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html, body, #wrap{
     height: 100%;
 }
@@ -34,10 +42,12 @@ body > #wrap{
 .clearfix{
     display: inline-block;
 }
+
 /* Hides from IE-mac \*/
 * html .clearfix{
     height: 1%;
 }
+
 .clearfix{
     display: block;
 }
@@ -47,46 +57,42 @@ body > #wrap{
     height: 95px;
     width: 95px;
 }
-#imagenPerfil{
-    height: 230px;
-    width: 280px;
-}
-#encabezado{
+
+#header{
     background-color: #FDEE00;
     width: 100%;
     padding: 1%;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .img-circle{
     height: 95px;
     width: 95px;
 }
+
 #lblCargo{
     font-size: 16px;
     color: rgb(63, 63, 63);
     font-family: Open Sans Light;
 }
+
 #lblUsuario{
     font-size: 20px;
     text-align: right;
     color: rgb(63, 63, 63);
-    font-family: Open Sans Light;
+    font-family: 'Open Sans', sans-serif;
 }
-@font-face {
-    font-family: 'open_sanslight';
-    src: url('fonts/opensans-light-webfont.eot');
-    src: url('fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/opensans-light-webfont.woff2') format('woff2'),       
-        url('fonts/opensans-light-webfont.woff') format('woff'),  
-        url('fonts/opensans-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 h4{
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
+
 h5{
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
+
 img.pequeña{
     width: 50px; height: 50px;
 }
@@ -137,9 +143,40 @@ img.pequeña{
 }
 
 .divider-vertical {
-height: 50px;
-margin: 0 9px;
-border-left: 1px solid #F2F2F2;
-border-right: 1px solid #FFF;
+    height: 50px;
+    margin: 0 9px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #FFF;
 }
 /* FIN NAV BAR */
+
+.card .card-block .card-text {
+    margin-right: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #424242;  
+}
+
+#contenedor {
+    margin-bottom: 10px;
+}
+
+.izquierdo {
+    float: left;
+}
+
+.derecho {
+    float: right;
+}

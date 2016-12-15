@@ -19,7 +19,7 @@
             <div id="main" class="clearfix">                           
                 <div class="container">
                     <div class="main row">
-                        <div class="col-md-9 text-success">
+                        <div class="col-md-12 text-success" id="title">
                             <h2>¡Bienvenido al SISTEMA DE SOPORTE TÉCNICO WEB!</h2>
                         </div>
                     </div>           
