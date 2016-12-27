@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 table-responsive">                  
                             <table class="table table-bordered table-striped">
-                                <th class="text-center">Nro: Ticket</th>
+                                <th class="text-center">Nro. Ticket</th>
                                 <th class="text-center">Categoría</th>
                                 <th class="text-center">Servicio Afectado</th>
                                 <th class="text-center">Equipo</th>

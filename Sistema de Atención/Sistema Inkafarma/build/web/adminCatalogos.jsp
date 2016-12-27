@@ -34,6 +34,17 @@
                             <button type="button" class="btn btn-primary">Agregar</button>
                         </div>
                         <div class="col-md-3 col-md-offset-1">
+                            <select class="selectpicker">
+                                <optgroup label="Seleccione Categoría">
+                                    <option>Hardware</option>
+                                    <option>Software</option>                                   
+                                </optgroup>
+                            </select> 
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-6">
                             <input type="text" class="form-control" placeholder="Equipos...">
                         </div>
                         <div class="col-md-2">

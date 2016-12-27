@@ -25,7 +25,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-3">
-                            <h4>Código de Local</h4>
+                            <h4>Nombre de Local</h4>
                         </div>
                         <div class="col-md-2">
                             <input type="text" class="form-control" placeholder="Código...">
@@ -39,6 +39,20 @@
                             <input type="text" class="form-control" placeholder="Dirección...">
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>Tipo de Local</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="selectpicker">
+                                <optgroup label="Categorías">
+                                    <option>Bronce</option>
+                                    <option>Plata</option>
+                                    <option>Oro</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>  
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Departamento</h4>
@@ -79,26 +93,6 @@
                                     <option>Independencia</option>
                                 </optgroup>
                             </select> 
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h4>Tipo de Local</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <select class="selectpicker">
-                                <optgroup label="Categorías">
-                                    <option>Bronce</option>
-                                    <option>Plata</option>
-                                    <option>Oro</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                    </div>  
-                    <div class="row">
-                        <div class="col-md-2 col-md-offset-9">
-                            <a href="#" role="button" class="btn btn-primary btn-md btn-block"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Examinar...</a>
                         </div>
                     </div>
                     <br>

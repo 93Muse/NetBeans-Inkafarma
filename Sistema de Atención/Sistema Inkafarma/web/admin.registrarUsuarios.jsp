@@ -38,7 +38,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <h4>Código de Trabajador</h4>
+                            <h4>DNI de Trabajador</h4>
                         </div>
                         <div class="col-md-2">
                             <input type="text" class="form-control" placeholder="Dni...">
@@ -68,7 +68,14 @@
                             <input type="text" class="form-control" placeholder="Ingrese apellido materno...">
                         </div>
                     </div>
-
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>Correo Corporativo</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Ingrese Correo Corporativo...">
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-3">
                             <h4>Área/Sucursal:</h4>
@@ -83,23 +90,6 @@
                             </select>
                         </div>
                     </div>  
-                    <div class="row">
-                        <div class="col-md-3">
-                            <h4>Cargo:</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <select class="selectpicker">
-                                <optgroup label="Cargos">
-                                    <option>Asesor de Ventas</option>
-                                    <option>Farmacéutico</option>
-                                    <option>Administrador</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                        <div class="col-md-2 col-md-offset-3">
-                            <a href="#" role="button" class="btn btn-primary btn-md btn-block"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Examinar...</a>
-                        </div>
-                    </div>
                     <br>
                     <br>
                     <div class="row">

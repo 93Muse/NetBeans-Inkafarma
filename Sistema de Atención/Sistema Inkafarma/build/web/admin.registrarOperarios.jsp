@@ -39,10 +39,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <h4>Código de Operario</h4>
+                            <h4>DNI de Operario</h4>
                         </div>
                         <div class="col-md-2">
-                            <input type="text" class="form-control" placeholder="Código...">
+                            <input type="text" class="form-control" placeholder="Dni...">
                         </div>
                     </div>
                     <div class="row">
@@ -67,6 +67,14 @@
                         </div>
                         <div class="col-md-4">
                             <input type="text" class="form-control" placeholder="Ingrese apellido materno...">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>Correo Corporativo</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Ingrese Correo Corporativo...">
                         </div>
                     </div>
                     <br>

@@ -121,23 +121,6 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-2">
-                            <h4>Tiempo de Atención</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <select class="selectpicker">
-                                <optgroup label="Horas">
-                                    <option>1 Hora</option>
-                                    <option>2 Horas</option>
-                                    <option>3 Horas</option>
-                                    <option>4 Horas</option>
-                                    <option>5 Horas</option>
-                                    <option>6+ Horas</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-12">
                             <br>
                         </div>

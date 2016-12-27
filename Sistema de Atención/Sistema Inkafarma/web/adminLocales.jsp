@@ -27,6 +27,7 @@
                                     </button>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Código</a></li>
+                                        <li><a href="#">Nombre</a></li>
                                         <li><a href="#">Departamento</a></li>
                                         <li><a href="#">Provincia</a></li>
                                         <li><a href="#">Distrito</a></li>
@@ -60,22 +61,22 @@
                         <div class="col-md-10 col-md-offset-1 table-responsive">                  
                             <table class="table table-bordered table-striped">
                                 <th class="text-center">ID de Local</th>
-                                <th class="text-center">Código</th>
+                                <th class="text-center">Nombre</th>
                                 <th class="text-center">Dirección</th>
+                                <th class="text-center">Tipo</th>
                                 <th class="text-center">Departamento</th>
                                 <th class="text-center">Provincia</th>
-                                <th class="text-center">Distrito</th>
-                                <th class="text-center">Tipo</th>
+                                <th class="text-center">Distrito</th>                              
                                 <th class="text-center">Configuraciones</th>
 
                                 <tr>
                                     <td class="text-center">LCL-001</td>
-                                    <td class="text-center">LLSTA-01</td>
+                                    <td class="text-center">Farmacia Tomás Valle 03</td>
                                     <td class="text-center">Cl. Ciro Alegría #411</td>
-                                    <td class="text-center">Lima</td>
-                                    <td class="text-center">Lima</td>
-                                    <td class="text-center">Santa Anita</td>
                                     <th class="text-center"><span class="label label-success">Bronce</span></th>
+                                    <td class="text-center">Lima</td>
+                                    <td class="text-center">Lima</td>
+                                    <td class="text-center">Santa Anita</td>                                    
                                     <td class="text-center">
                                         <a href="#modal01" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
                                         <a href="#" class="btn btn-danger btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-remove"></span> Eliminar</a>
