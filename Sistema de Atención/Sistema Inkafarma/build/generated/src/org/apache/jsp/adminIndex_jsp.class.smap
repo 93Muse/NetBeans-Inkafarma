@@ -7,8 +7,8 @@ JSP
 adminIndex.jsp
 + 1 jscss.jspf
 WEB-INF/jspf/jscss.jspf
-+ 2 headerAdministrator.jspf
-WEB-INF/jspf/headerAdministrator.jspf
++ 2 adminMain.jspf
+WEB-INF/jspf/adminMain.jspf
 + 3 footer.jspf
 WEB-INF/jspf/footer.jspf
 *L

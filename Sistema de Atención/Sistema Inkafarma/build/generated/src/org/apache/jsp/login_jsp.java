@@ -66,7 +66,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n");
       out.write("\r\n");
       out.write("<!-- Estilos Login CSS -->\r\n");
-      out.write("<link href=\"../css/login.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
+      out.write("<link href=\"css/login.css\" rel=\"stylesheet\" type=\"text/css\"/>\r\n");
       out.write("\r\n");
       out.write("<!-- JQuery -->\r\n");
       out.write("<script src=\"http://code.jquery.com/jquery-1.12.0.min.js\"></script>\r\n");

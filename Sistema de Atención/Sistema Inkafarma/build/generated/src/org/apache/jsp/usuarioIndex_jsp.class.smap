@@ -7,8 +7,8 @@ JSP
 usuarioIndex.jsp
 + 1 jscss.jspf
 WEB-INF/jspf/jscss.jspf
-+ 2 headerUsuario.jspf
-WEB-INF/jspf/headerUsuario.jspf
++ 2 userMain.jspf
+WEB-INF/jspf/userMain.jspf
 + 3 footer.jspf
 WEB-INF/jspf/footer.jspf
 *L

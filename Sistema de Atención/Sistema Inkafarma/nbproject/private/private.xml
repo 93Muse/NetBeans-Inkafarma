@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/admin.registrarUsuarios.jsp</file>
-            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/admin.registrarOperarios.jsp</file>
+            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/usuarioIndex.jsp</file>
+            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/WEB-INF/jspf/headerUsuario.jspf</file>
+            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/usuarioCrear.jsp</file>
+            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/WEB-INF/jspf/headerOperador.jspf</file>
+            <file>file:/C:/Users/wpm/Documents/GitHub/NetBeans-Inkafarma/Sistema%20de%20Atención/Sistema%20Inkafarma/web/WEB-INF/jspf/headerAdministrator.jspf</file>
         </group>
     </open-files>
 </project-private>

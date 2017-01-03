@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
+            <%@include file="WEB-INF/jspf/adminLocales.jspf" %>
             <br>
             <div id="main" class="clearfix">              
                 <div class="container">
@@ -97,20 +97,23 @@
                 <!-- Header -->
                 <div class="modal-header">
                     <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h2 class="modal-title">Editar Registro Local</h2>
+                    <h2 class="modal-title">Editar Registro de Local</h2>
                 </div>
 
                 <!-- Contenido -->
                 <div class="modal-body">
                     <div class="form-group">
                         <div class="row">
-                            <h4 class="col-md-2">ID de Local</h4>                               
+                            <h4 class="col-md-2">Código</h4>                               
                             <div class="col-md-3">
                                 <input class="form-control text-center" type="text" value="LCL-001" readonly>
                             </div>
-                            <h4 class="col-md-2 col-md-offset-2">Código</h4>                               
-                            <div class="col-md-3">
-                                <input class="form-control text-center" type="text" value="LLSTA-01" readonly>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <h4 class="col-md-2">Nombre</h4>                               
+                            <div class="col-md-7">
+                                <input class="form-control" type="text" value="Tomás Valle 03">
                             </div>
                         </div>
                         <br>
@@ -145,7 +148,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <select class="selectpicker">
+                                <select class="selectpicker" data-live-search="true">
                                     <optgroup label="Departamentos">
                                         <option>Lima</option>
                                         <option>La Libertad</option>
@@ -154,7 +157,7 @@
                                 </select> 
                             </div>
                             <div class="col-md-3 col-md-offset-1">
-                                <select class="selectpicker">
+                                <select class="selectpicker" data-live-search="true">
                                     <optgroup label="Provincias">
                                         <option>Lima</option>
                                         <option>Huaraz</option>
@@ -163,7 +166,7 @@
                                 </select> 
                             </div>
                             <div class="col-md-3 col-md-offset-1">
-                                <select class="selectpicker">
+                                <select class="selectpicker" data-live-search="true">
                                     <optgroup label="Distritos">
                                         <option>Cercado de Lima</option>
                                         <option>La Punta</option>

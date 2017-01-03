@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerUsuario.jspf" %>
+            <%@include file="WEB-INF/jspf/userTickets.jspf" %>
             <div id="main" class="clearfix">  
                 <div class="container">
                     <div class="main row">               
@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 table-responsive">                  
                             <table class="table table-bordered table-striped">
-                                <th class="text-center">Nro: Ticket</th>
+                                <th class="text-center">Nro. Ticket</th>
                                 <th class="text-center">Categoría</th>
                                 <th class="text-center">Servicio Afectado</th>
                                 <th class="text-center">Equipo</th>
@@ -46,36 +46,6 @@
                                     <td class="text-center">18-11-2016</td>
                                     <td class="text-center"><span class="label label-success">Solucionado</span></td>    
                                     <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0112</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0113</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>    
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal">Ver Detalles</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">RLC-0114</td>
-                                    <td class="text-center">Hardware</td>
-                                    <td class="text-center">Ventas</td>
-                                    <td class="text-center">Estación de Servidor</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center">18-11-2016</td>
-                                    <td class="text-center"><span class="label label-success">Solucionado</span></td>                            
-                                    <td class="text-center"><a href="#modal02" class="btn btn-warning btn-xs" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Detalles</a></td>
                                 </tr>
                             </table>
                         </div>
@@ -124,13 +94,13 @@
                             <input class="form-control" type="text" placeholder="Alto" value="Alto" readonly>
                         </div>
                         <div class="col-md-6">
-                            <input class="form-control" type="text" placeholder="Apellido Apellido, Nombre" value="Apellido Apellido, Nombre" readonly>
+                            <input class="form-control" type="text" placeholder="Técnico asignado..." value="Eduardo Lama Martinez" readonly>
                         </div>
                     </div>
                     <br>
                     <br>
                     <div class="row">
-                        <label class="col-md-3">Código de Ticket</label>
+                        <label class="col-md-3">Número de Ticket</label>
                         <label class="col-md-3">Nombre</label>
                     </div>
                     <div class="row">

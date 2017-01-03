@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
+            <%@include file="WEB-INF/jspf/adminLocales.jspf" %>
             <div id="main" class="clearfix"> 
                 <div class="container">
                     <div class="main row">
@@ -28,7 +28,7 @@
                             <h4>Nombre de Local</h4>
                         </div>
                         <div class="col-md-2">
-                            <input type="text" class="form-control" placeholder="Código...">
+                            <input type="text" class="form-control" placeholder="Nombre...">
                         </div>
                     </div>
                     <div class="row">
@@ -44,7 +44,7 @@
                             <h4>Tipo de Local</h4>
                         </div>
                         <div class="col-md-4">
-                            <select class="selectpicker">
+                            <select class="selectpicker" data-live-search="true">
                                 <optgroup label="Categorías">
                                     <option>Bronce</option>
                                     <option>Plata</option>
@@ -58,7 +58,7 @@
                             <h4>Departamento</h4>
                         </div>
                         <div class="col-md-3">
-                            <select class="selectpicker">
+                            <select class="selectpicker" data-live-search="true">
                                 <optgroup label="Departamentos">
                                     <option>Lima</option>
                                     <option>La Libertad</option>
@@ -72,7 +72,7 @@
                             <h4>Provincia</h4>
                         </div>
                         <div class="col-md-3">
-                            <select class="selectpicker">
+                            <select class="selectpicker" data-live-search="true">
                                 <optgroup label="Provincias">
                                     <option>Lima</option>
                                     <option>Huaraz</option>

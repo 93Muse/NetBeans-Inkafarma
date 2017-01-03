@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
+            <%@include file="WEB-INF/jspf/adminUsuarios.jspf" %>
             <br>
             <div id="main" class="clearfix"> 
                 <div class="container">
@@ -61,17 +61,15 @@
                                 <th class="text-center">ID de Trabajador</th>
                                 <th class="text-center">DNI</th>
                                 <th class="text-center">Nombres</th>
-                                <th class="text-center">A. Paterno</th>
-                                <th class="text-center">A. Materno</th>
+                                <th class="text-center">Correo Corporativo</th>
                                 <th class="text-center">Área / Sucursal</th>
                                 <th class="text-center">Configuraciones</th>
 
                                 <tr>
                                     <td class="text-center">WK-001</td>
                                     <td class="text-center">48229461</td>
-                                    <td class="text-center">Keiko</td>
-                                    <td class="text-center">Fujimori</td>
-                                    <td class="text-center">Higuchi</td>
+                                    <td class="text-center">Carlos, Montero Valladares</td>
+                                    <td class="text-center">usuario01@inkafarma.com.pe</td>
                                     <td class="text-center">Ventas</td>
                                     <td class="text-center">
                                         <a href="#modal01" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
@@ -131,7 +129,6 @@
                         <div class="row">
                             <label class="col-md-3">Tipo de Trabajador</label>
                             <label class="col-md-3 col-md-offset-1">Área/Sucursal</label>
-                            <label class="col-md-3 col-md-offset-1">Cargo</label>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
@@ -143,20 +140,11 @@
                                 </select> 
                             </div>
                             <div class="col-md-4 col-md-offset-1">
-                                <select class="selectpicker">
+                                <select class="selectpicker" data-live-search="true">
                                     <optgroup label="Áreas">
                                         <option>Recursos Humanos</option>
                                         <option>Contabilidad</option>
                                         <option>Legal</option>
-                                    </optgroup>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="selectpicker">
-                                    <optgroup label="Cargos">
-                                        <option>Asesor de Ventas</option>
-                                        <option>Farmacéutico</option>
-                                        <option>Administrador</option>
                                     </optgroup>
                                 </select>
                             </div>

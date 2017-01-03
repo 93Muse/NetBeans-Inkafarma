@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
+            <%@include file="WEB-INF/jspf/adminMain.jspf" %>
             <div id="main" class="clearfix">                           
                 <div class="container">
                     <div class="main row">

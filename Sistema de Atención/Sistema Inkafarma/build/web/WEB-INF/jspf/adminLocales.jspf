@@ -1,0 +1,47 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<header>     
+    <div class="container-fluid" id="header">
+        <section class="main row">
+            <div class="col-md-4"> 
+                <img src="img/inkafarmaheader.png">
+            </div>
+            <div class="col-md-4 col-md-offset-3 text-right">
+                <label id="lblUsuario">Bienvenido, José Cruz Peralta<br><label id="lblCargo">Administrador de Sistema<br>Área: Sistemas</label></label>
+            </div>
+            <div class="col-md-1">
+                <img src="img/administrador.png" alt="..." class="img-circle">
+            </div>
+        </section>
+            <div class="container-fluid">
+                <section class="main row">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="adminIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
+                            <li class="divider-vertical"></li>
+                            <li class="active"><a href="adminLocales.jsp"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Locales</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="adminUsuarios.jsp"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuarios</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="adminOperarios.jsp"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Operarios</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="adminCatalogos.jsp"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Catálogos</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Configuraciones</a></li>                                              
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mi Cuenta <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Mi Perfil</a></li>
+                                    <li><a href="#">Cambiar Contraseña</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Cerrar Sesión</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </section>
+            </div><!-- /.container-fluid -->
+    </div>    
+</header>

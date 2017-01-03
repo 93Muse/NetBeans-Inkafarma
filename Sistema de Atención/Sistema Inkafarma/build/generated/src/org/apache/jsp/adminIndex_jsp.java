@@ -14,7 +14,7 @@ public final class adminIndex_jsp extends org.apache.jasper.runtime.HttpJspBase
   static {
     _jspx_dependants = new java.util.ArrayList<String>(3);
     _jspx_dependants.add("/WEB-INF/jspf/jscss.jspf");
-    _jspx_dependants.add("/WEB-INF/jspf/headerAdministrator.jspf");
+    _jspx_dependants.add("/WEB-INF/jspf/adminMain.jspf");
     _jspx_dependants.add("/WEB-INF/jspf/footer.jspf");
   }
 
@@ -104,7 +104,7 @@ public final class adminIndex_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                <label id=\"lblUsuario\">Bienvenido, HUMALA TASSO Ollanta<br><label id=\"lblCargo\">Administrador de Sistema<br>Sede: Torre Beta</label></label>\r\n");
       out.write("            </div>\r\n");
       out.write("            <div class=\"col-md-1\">\r\n");
-      out.write("                <img src=\"http://data.whicdn.com/images/65154870/original.jpg\" alt=\"...\" class=\"img-circle\">\r\n");
+      out.write("                <img src=\"img/administrador.png\" alt=\"...\" class=\"img-circle\">\r\n");
       out.write("            </div>\r\n");
       out.write("        </section>\r\n");
       out.write("            <div class=\"container-fluid\">\r\n");

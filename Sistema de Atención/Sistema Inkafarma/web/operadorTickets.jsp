@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerOperador.jspf" %>
+            <%@include file="WEB-INF/jspf/operadorTickets.jspf" %>
             <div id="main" class="clearfix">  
                 <div class="container">
                     <div class="main row">               

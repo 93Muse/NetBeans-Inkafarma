@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerAdministrator.jspf" %>
+            <%@include file="WEB-INF/jspf/adminOperarios.jspf" %>
             <br>
             <div id="main" class="clearfix"> 
                 <div class="container">
@@ -61,17 +61,15 @@
                                 <th class="text-center">ID de Operario</th>
                                 <th class="text-center">DNI</th>
                                 <th class="text-center">Nombres</th>
-                                <th class="text-center">A. Paterno</th>
-                                <th class="text-center">A. Materno</th>
+                                <th class="text-center">Correo Corporativo</th>
                                 <th class="text-center">Nivel</th>
                                 <th class="text-center">Configuraciones</th>
 
                                 <tr>
                                     <td class="text-center">OPR-001</td>
                                     <td class="text-center">48229461</td>
-                                    <td class="text-center">Wilfredo</td>
-                                    <td class="text-center">Pedroso</td>
-                                    <td class="text-center">Melgarejo</td>
+                                    <td class="text-center">Wilfredo, Pedroso Melgarejo</td>
+                                    <td class="text-center">operador01@inkafarma.com.pe</td>
                                     <th class="text-center"><span class="label label-success">Nivel 1</span></th>
                                     <td class="text-center">
                                         <a href="#modal01" class="btn btn-primary btn-xs" data-toggle="modal"><span class="glyphicon glyphicon-pencil"></span> Editar</a>

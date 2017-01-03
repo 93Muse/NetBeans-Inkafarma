@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrap">
-            <%@include file="WEB-INF/jspf/headerUsuario.jspf" %>
+            <%@include file="WEB-INF/jspf/userRegistrar.jspf" %>
             <div id="main" class="clearfix">  
                 <div class="container">
                     <div class="main row">
@@ -40,7 +40,7 @@
                             <h4>Servicio Afectado:</h4>
                         </div>
                         <div class="col-md-3">
-                            <select class="selectpicker">
+                            <select class="selectpicker" data-live-search="true">
                                 <optgroup label="Servicios">
                                     <option>Ventas</option>
                                     <option>Facturación</option>
@@ -57,7 +57,7 @@
                             <h4>Equipo Afectado:</h4>
                         </div>
                         <div class="col-md-3">
-                            <select class="selectpicker">
+                            <select class="selectpicker" data-live-search="true">
                                 <optgroup label="Equipos">
                                     <option>PC</option>
                                     <option>POS</option>
@@ -150,16 +150,10 @@
                             <label class="col-md-6 control-label">
                                 Email:
                             </label>
-                            <label class="col-md-3 control-label">
-                                Anexo:
-                            </label>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <input class="form-control" type="text" value="example@inkafarma.pe" readonly>
-                            </div>
-                            <div class="col-md-4">
-                                <input class="form-control" type="text" value="3417" readonly>
                             </div>
                         </div>
                         <br>

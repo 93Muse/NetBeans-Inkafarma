@@ -7,19 +7,19 @@
                 <img src="img/inkafarmaheader.png">
             </div>
             <div class="col-md-4 col-md-offset-3 text-right">
-                <label id="lblUsuario">Bienvenido, HUMALA TASSO Ollanta<br><label id="lblCargo">Asesor de Ventas Presencial<br>Sede: Lima Centro</label></label>
+                <label id="lblUsuario">Bienvenido, Jesús Mendieta Flores<br><label id="lblCargo">Asesor de Ventas<br>Sucursal: Tomás Valle 01</label></label>
             </div>
             <div class="col-md-1">
-                <img src="http://data.whicdn.com/images/65154870/original.jpg" alt="..." class="img-circle">
+                <img src="img/user.png" alt="..." class="img-circle">
             </div>
         </section>
         <div class="container-fluid">
             <section class="main row">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="usuarioIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
+                        <li><a href="usuarioIndex.jsp"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio de Centro de Soporte<span class="sr-only">(current)</span></a></li>
                         <li class="divider-vertical"></li>
-                        <li><a href="usuarioCrear.jsp"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Abrir un nuevo Ticket</a></li>                    
+                        <li  class="active"><a href="usuarioCrear.jsp"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Abrir un nuevo Ticket</a></li>                    
                         <li class="divider-vertical"></li>
                         <li><a href="usuarioTickets.jsp"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Ver estado de un Ticket</a></li>
                     </ul>
